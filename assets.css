@@ -20,21 +20,21 @@ h3 {
   color: #39a7a1;
 }
 
-.navbar-nav{
-    height: 90px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 60px;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    background: #4aaaa5;
-    margin-top: -1px;
+#nav{
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
 }
+    
 
 .img{
-    display: inline-block;
+
+    border: 0 none;
+    box-shadow: none;
+    margin: 15px;
+    padding: 0;
+    max-width: 220px;
+    
   }
 
 #me{
@@ -63,9 +63,7 @@ textarea {
   border: 1px solid #ddd;
 }
 
-textarea {
-  height: 200px;
-}
+
 
 input[type=submit] {
   padding: 10px 30px;
